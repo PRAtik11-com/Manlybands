@@ -1,0 +1,1620 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/* first header */
+.promo-bar {
+    background-color: #101010;
+    height: #d69b30;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+  }
+  
+  .promo-content {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+  .promo-content a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .swiper-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide {
+    width: 100%;
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  /* main navbar */
+  /* logo */
+  .parks {
+    text-align: center;
+    display: flex;
+  }
+  .parks img{
+    height: 40px;
+    width: 40px;
+  }
+  .parks a{
+    font-weight: 900;
+    line-height: 60px;
+    font-size: 20px;
+  }
+  /* list part */
+  /* .came{
+    color: #101010;
+    padding: 0x 60px;
+  } */
+  .came a{
+    color: #101010;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .came::after {
+    content: '';
+    display: block;
+    margin: 0%;
+    padding: 0% ;
+    border-bottom: 4px solid #d69b30;
+    width: 0%;
+    transition: all 0.4s ease-in-out;
+  }
+  .came:hover::after
+  {
+      width: 100%;
+  }
+  /* RINGS FOR HIM */
+  .submenu
+  {
+    position: absolute;
+    /* background-color: blueviolet; */
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: start;
+    width: 100%;
+    left: 0%;
+    top: 80px;
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+    visibility: hidden;
+    height: 80vh;
+  }
+  .came:hover .submenu
+  {
+    /* width: 100%; */
+    visibility: visible;
+  }
+  .sublist
+  {
+    position: relative;
+    list-style: none;
+  }
+  .subMenusub
+  {
+    list-style: none;
+    padding: 30px 0px;
+  }
+  .subListsub
+  {
+    color: #101010;
+    line-height: 2.2;
+  }
+  .subListsub a{
+    color: #101010;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .subListsub::after {
+    content: '';
+    display: block;
+    margin: 0%;
+    padding: 0% ;
+    border-bottom: 2px solid #101010;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+  }
+  .subListsub:hover::after
+  {
+      width: 70%;
+  }
+  /* RINGS FOR ME BUTTON */
+  .button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d69b30; /* green background color */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .button:hover {
+    background-color: #dc750d; /* darker green background color on hover */
+  }
+  .button:active {
+    transform: translateY(2px);
+  }
+  .button a
+  {
+    color: #fff; /* white text color */
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  /* RINGS FOR ME BRAND IMAGE AND NAME */
+  #court{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-gap : 10px; */
+    /* padding-left: 5px; */
+  }
+  .box-1{
+    display: flex;
+    justify-items: start;
+    padding: 10px 0px 0px 0px;
+    height: 250px;
+    /* background-color: aqua; */
+  }
+  .box-1 a{
+    text-decoration: none;
+  }
+  .box-1 img{
+    height: 200px;
+    width: 250px;
+    object-fit: fill;
+  }
+  .box-1 p{
+    font-size: 16px;
+  }
+  /* RINGS FOR ME image and name section-1 */
+  #Gone{
+    padding: 25px 0px 0px 0px;
+  }
+  .chamber{
+    /* display: flex; */
+    padding-top: 20px;
+    /* line-height: 1.0; */
+    row-gap: 0px;
+  }
+  .chamber a{
+    text-decoration: none;
+  }
+  .chamber img{
+    height: 30px;
+    width: 30px;
+  }
+  .chamber span{
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 10px;
+  }
+  /* RINGS FOR ME image and name section-2 */
+  #Duck{
+    padding: 25px 0px 0px 0px;
+  }
+  /* RINGS FOR ME image and name section-3 */
+  #coder{
+    padding: 25px 0px 0px 0px;
+  }
+
+  /* RINGS FOR HER */
+  .subDivision
+  {
+    position: absolute;
+    /* background-color: blueviolet; */
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1fr 1fr ;
+    /* grid-gap: 10px; */
+    justify-items: start;
+    width: 100%;
+    left: 0%;
+    top: 80px;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    height: 60vh;
+  }
+  .came:hover .subDivision
+  {
+    /* width: 100%; */
+    visibility: visible;
+  }
+  .subTomainlist
+  {
+    position: relative;
+    list-style: none;
+  }
+  .just
+  {
+    list-style: none;
+    padding: 30px 0px;
+  }
+  .tele
+  {
+    color: #101010;
+    line-height: 2.2;
+  }
+  .tele a{
+    color: #101010;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .tele::after {
+    content: '';
+    display: block;
+    margin: 0%;
+    padding: 0% ;
+    border-bottom: 2px solid #101010;
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+  }
+  .tele:hover::after
+  {
+      width: 80%;
+  }
+  /* RINGS FOR HER BUTTON */
+  .button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d69b30; /* green background color */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .button:hover {
+    background-color: #dc750d; /* darker green background color on hover */
+  }
+  .button:active {
+    transform: translateY(2px);
+  }
+  .button a
+  {
+    color: #fff; /* white text color */
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .subTomainlist img
+  {
+    height: 100px;
+    width: 180px;
+    padding-top: 20px;
+  }
+  /* RINGS FOR HER IMAGE */
+  #cases1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap : 10px;
+    padding-top: 20px;
+  }
+  .box-2{
+    display: flex;
+    justify-items: start;
+    /* padding: 10px 0px 0px 0px; */
+    height: 250px;
+    /* background-color: aqua; */
+  }
+  .box-2 a{
+    text-decoration: none;
+  }
+  .box-2 img{
+    height: 170px;
+    width: 170px;
+    object-fit: fill;
+  }
+  .box-2 p{
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  /* GIFTS */
+  .subTopart
+  {
+    position: absolute;
+    /* background-color: blueviolet; */
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: start;
+    width: 100%;
+    left: 0%;
+    top: 80px;
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+    visibility: hidden;
+    height: 65vh;
+  }
+  .came:hover .subTopart
+  {
+    /* width: 100%; */
+    visibility: visible;
+  }
+  .subToomain
+  {
+    position: relative;
+    list-style: none;
+  }
+  /* button css for gifts */
+  .button-btn {
+    padding: 15px 15px 15px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d69b30; /* green background color */
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+  }
+  .button-btn:hover {
+    background-color: #dc750d; /* darker green background color on hover */
+  }
+  .button-btn:active {
+    transform: translateY(2px);
+  }
+  .button-btn a
+  {
+    color: #fff; /* white text color */
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  /* gifts images and name */
+  #Pokemon{
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr;
+    grid-gap : 10px;
+    padding-top: 20px;
+  }
+  .box-2{
+    display: flex;
+    justify-items: start;
+    /* padding: 10px 0px 0px 0px; */
+    height: 200px;
+    /* background-color: aqua; */
+  }
+  .box-2 a{
+    text-decoration: none;
+  }
+  .box-2 img{
+    height: 180px;
+    width: 200px;
+    object-fit: fill;
+  }
+  .box-2 p{
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  /* ABOUT US */
+  .subs
+  {
+    position: absolute;
+    /* background-color: blueviolet; */
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 2.2fr 2fr 1fr;
+    grid-gap: 10px;
+    justify-items: start;
+    width: 100%;
+    left: 0%;
+    top: 80px;
+    list-style: none;
+    transition: all 0.5s;
+    visibility: hidden;
+    height: 40vh;
+  }
+  .came:hover .subs
+  {
+    /* width: 100%; */
+    visibility: visible;
+  }
+  .minilist
+  {
+    position: relative;
+    list-style: none;
+  }
+  /* icons */
+  .core{
+    text-align: center;
+    padding: 0px 5px;
+    list-style: none;
+  }
+  .core a 
+  {
+    text-align: center;
+    font-size: 22px;
+    color: #101010;
+    font-weight: bold;
+  }
+  /* search offcanvas */
+  .offcanvas-header {
+    justify-content: space-between;
+  }
+  .offcanvas-header h5 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .offcanvas-header button {
+    margin-right: 1rem;
+  }
+  /* offcanvas body */
+  .offcanvas-body {
+    padding: 1rem; /* add some padding to the offcanvas body */
+  }
+  .coolsearch h5
+  {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+  .minioffs{
+    list-style: none;
+    line-height: 2.0;
+  }
+  .minioffs a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #101010;
+  }
+  .minioffs::after {
+    content: '';
+    display: block;
+    margin: 0%;
+    padding: 0% ;
+    border-bottom: 2px solid #101010;
+    width: 0%;
+    transition: all 0.2s ease-in-out;
+  }
+  .minioffs:hover::after
+  {
+      width: 33%;
+  }
+  .cartsub{
+    padding-top: 14px;
+    font-size: 25px;
+  }
+  .cartminis{
+    list-style: none;
+  }
+  .cartminis a{
+    text-decoration: none;
+    color: #101010;
+  }
+  /* cart offcanvas body */
+  .foxes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 23px;
+  }
+  /* section-1 American flag   */
+  body {
+    font-family: sans-serif;
+}
+.section-1{
+  background-image: url(images/amrican\ flag.webp);
+
+}
+.container{
+   width: 100%;
+   height: 90vh;
+   max-width: 100%;
+   /* display: grid;
+   grid-template-columns: 2.8fr 2.5fr; */
+   place-items: center;
+   /* align-items: center; */
+   overflow: auto;
+   overflow-y: hidden;
+}
+
+.vices{
+  text-align: center;
+  height: 450px;
+  max-width: 450px;
+}
+
+.title {
+    font-size: 2.8rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-just {
+    background-color: #ffc107; /* Yellow */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn-just:hover{
+  background-color: #dc750d;
+}
+/* section-2 black 3 parts   */
+.banner {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15%;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner-column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.banner .btn-prime {
+  background-color: #d69b30;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.btn-prime:hover{
+  background-color: blueviolet;
+}
+
+/* Media query */
+@media (max-width: 749px) {
+  .banner {
+    padding: 20px 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-column {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .banner h2 {
+    font-size: 24px;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  .banner .btn-primary {
+    font-size: 14px;
+  }
+}
+/* section-3 small black rope */
+.section-3{
+  width: 100%;
+  background-color: #101010;
+  margin-top: 20px;
+}
+.bts{
+  background-color: rgb(123, 164, 151);
+  padding: 6px 15px;
+  border-radius: 5px;
+  color: #101010;
+  font-size: 16px;
+  font-weight: 600;
+}
+.chrome span{
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.chrome span a{
+  color: #ffffff;
+}
+/* section-4 Some Cards */
+.unique-mens-wedding-bands {
+  background-color: var(--background);
+  padding: 2rem;
+}
+
+.collection-link {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+}
+.linesbottom{
+  text-align: center;
+  /* background-color: aqua; */
+  font-size: 20px;
+  margin: 20px 0px 23px 0px;
+  position: relative;
+}
+.linesbottom a{
+  text-decoration: none;
+  color: #101010;
+}
+.linesbottom::after {
+  content: '';
+  position: absolute;
+  top: 46px; 
+  bottom: 0; 
+  left: 42%; 
+  border-bottom: 3px solid #101010;
+  width: 16%;
+  transition: all 0.3s ease-in-out;
+}
+
+.collection-link:hover {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.collection-link img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.collection-link h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+/* section-5 Rings Data Fetch  */
+/* Global styles */
+
+/* Section container */
+/* .card {
+  border: none;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+} */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 30px;
+}
+.product {
+  width: 300px;
+  height: 400px;
+  /* margin: 10px; */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* padding: 10px; */
+  border-radius: 5px;
+  position: relative;
+}
+
+.product img {
+  width: 100%;
+  height: 320px;
+  transition: transform 0.3s ease;
+}
+
+.product:hover img {
+  transform: scale(1.1);
+  /* width: 100%;
+  height: 69%; */
+}
+
+.pros-core {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product:hover .pros-core {
+  opacity: 1;
+}
+
+.pros-core img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.bass {
+  padding: 10px;
+}
+/* section-6 DINOSAUR set-timeout card */
+.bear{
+  display: grid;
+  grid-template-columns: 2.5fr 2.2fr;
+  gap: 10px;
+}
+.half-parts{
+  width: auto;
+  padding-top: 40px;
+}
+.grown {
+  /* padding: 4rem; */
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+.grown img {
+  width: 80%;
+  height: 80vh;
+}
+.half-parts h2 {
+  color: #333;
+  font-weight: bolder;
+}
+.half-parts h1{
+  color: #333;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.half-parts p{
+  line-height: 2.0;
+  font-size: 19px;
+}
+.btn-subs {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-subs:hover {
+  background-color: #dc750d;
+}
+/* section-7 parts of wedding image */
+.crows{
+  display: grid;
+  grid-template-columns: 2.0fr 3.0fr;
+  gap: 10px;
+}
+.suzan{
+  width:100%;
+  text-align: center;
+  height: 500px;
+}
+.crust{
+  width: auto;
+  padding-top: 40px;
+}
+.crust h2 {
+  color: #333;
+  font-weight: bolder;
+}
+.crust h1{
+  color: #333;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.crust p{
+  line-height: 2.0;
+  font-size: 19px;
+}
+.btn-subs {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-subs:hover {
+  background-color: #dc750d;
+}
+
+/* section-8 reviews */
+.horse{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+.review {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* width: 50%; */
+  height: 250px;
+}
+.set-box {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.set-box i {
+  color: #000;
+  font-size: 16px;
+}
+.review h3{
+  margin-top: 0;
+  font-weight: bold;
+}
+.review p{
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+.author {
+  font-style: italic;
+  font-size: 14px;
+  color: #888;
+}
+/* section-9 */
+.ringsfetches{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 30px;
+}
+.sliders {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  /* background-color: #dc750d; */
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35%;
+  height: 70%;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  transition: transform 0.5s ease-in-out;
+}
+.prev {
+  left: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0px 14px; 
+}
+
+.next {
+  right: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0px 17px; 
+}
+
+.milks {
+  width: 300px;
+  height: 370px;
+  /* margin: 10px; */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* padding: 10px; */
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+.milks img {
+  width: 100%;
+  height: 300px;
+  transition: transform 0.3s ease;
+}
+
+.milks:hover img {
+  transform: scale(1.1);
+  /* width: 100%;
+  height: 69%; */
+}
+
+.ringhand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.milks:hover .ringhand {
+  opacity: 1;
+}
+
+.ringhand img {
+  width: 90%;
+  height: 100%;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.carest{
+  background-color: #d4ac0d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 4% 40% 0% 40% ;
+}
+.carest:hover{
+ background-color: #d69b30;
+}
+/* section-10 free silicone ring */
+.climax{
+  display: grid;
+  grid-template-columns: 2.5fr 2.2fr;
+  gap: 5px;
+}
+.wrongly{
+  max-width: 530px;
+  /* background-color: blue; */
+}
+.wrongly h1{
+  color: #333;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.wrongly p{
+  line-height: 1.5;
+  font-size: 19px;
+}
+.btn-subs {
+  background-color: #ffc107;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-subs:hover {
+  background-color: #dc750d;
+}
+/* section-11 Questions */
+.raws{
+  width: 50%;
+  margin: 10px auto;
+}
+.raws h1{
+  font-size: 46px;
+  font-weight: bold;
+}
+#acc1{
+  margin-top: 30px;
+}
+/* section-12 Questions */
+#acc2{
+  margin-top: 30px;
+}
+/* section-13 setinterval */
+.doe{
+  max-width: 55%;
+  margin: 0px auto;
+}
+#quotes{
+  line-height: 1.7;
+  font-size: 36px;
+}
+/* section-14 Pricing Policy */
+.pattern{
+  background-color: #888;
+}
+.toe{
+  max-width: 70%;
+  margin: 0px auto;
+}
+.toe p{
+  font: 1em sans-serif;
+  font-size: 17px;
+  color: #101010;
+  line-height: 1.5;
+  line-break: auto;
+  font-weight: lighter;
+}
+/* footer */
+.footer{
+  background-color: #000;
+  color: #fff;
+  height: 400px;
+}
+.rows2{
+  width: 92%;
+  /* background-color: #dc750d; */
+  margin: 0% auto; 
+}
+.footmain{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px 0px;
+}
+.footlist{
+  list-style: none;
+}
+.footlink{
+  text-decoration: none;
+  color: #fff;
+}
+.logos2{
+  width: 40px;
+  height: 40px;
+  
+}
+.logos2 img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+.para1{
+  font-size: 17px;
+  color: #fff;
+  padding: 20px 0px 0px 0px;
+  font-weight: bold;
+}
+.logos a{
+  text-decoration: none;
+  color: #fff;
+}
+/* section2 */
+.paras{
+  font-size: 17px;
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+.Aboutussub{
+  list-style: none;
+  padding: 0px 0px;
+}
+.Aboutusmini{
+  color: #ffffff;
+  line-height: 2.2;
+}
+.Aboutusmini a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Aboutusmini::after {
+  content: '';
+  display: block;
+  margin: 0%;
+  padding: 0% ;
+  border-bottom: 2px solid #ffffff;
+  width: 0%;
+  transition: all 0.3s ease-in-out;
+}
+.Aboutusmini:hover::after
+{
+    width: 50%;
+}
+/* section-3 */
+.para3{
+  font-size: 17px;
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+/* section-4 */
+.para4{
+  font-size: 17px;
+  color: #fff;
+  padding: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+/* part-2 */
+.footers{
+  background-color: #000;
+  color: #fff;
+  height: 130px;
+}
+.rows3{
+  width: 92%;
+  /* background-color: #dc750d; */
+  margin: 0% auto; 
+}
+.footmain2{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  padding: 10px 0px;
+}
+.footlist2{
+  list-style: none;
+}
+.footlink2{
+  text-decoration: none;
+  color: #fff;
+}
+.dropdown {
+  /* position: relative; */
+  display: inline-block;
+}
+.dropbtn{
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin: 0%;
+  border: none;
+}
+
+
+
+.copyright {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+/* ..........Rings Under $300........... */
+.unsure{
+  font-size:46px;
+  
+
+}
+.rows65{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+.rows64{
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: auto;
+  max-width: 95%;
+  margin: 20px auto ;
+  /* background-color: blueviolet; */
+  overflow: hidden;
+ 
+ 
+}
+.container56 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+  /* z-index: -9999; */
+ 
+}
+.items1 {
+  width: 300px;
+  height: 400px;
+  /* margin: 10px; */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  /* padding: 10px; */
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+.items1 img {
+  width: 100%;
+  height: 320px;
+  transition: transform 0.3s ease;
+}
+
+.items1:hover img {
+  transform: scale(1.1);
+  /* width: 100%;
+  height: 69%; */
+}
+
+.beta {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.items1:hover .beta {
+  opacity: 1;
+}
+
+.beta img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cross1 {
+  padding: 10px;
+}
+.cross1text{
+  text-decoration: line-through;
+}
+
+/* description page */
+.rows12{
+  width: 85%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 2.2fr 2.2fr;
+}
+.imagepartsection img{
+  height: 500px;
+  width: 600px;
+}
+.addcartpartsection{
+  height: 600px;
+  width: 600px;
+}
+.starsrate{
+  font-size: 16px;
+  color: #ffc107;
+}
+.flee{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flee img{
+  width: 110px;
+  height: 100px;
+}
+.linecross{
+  text-decoration: line-through;
+}
+.container100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  width: 500px;
+  height: 60px;
+  /* background-color: #eee; */
+}
+
+.klar-button {
+  background-color: palevioletred;
+  border: 1px solid #D3D3D3;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.klar-text {
+  margin-left: 10px;
+}
+
+.lean-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* sizes */
+.container50 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.size-option {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+}
+
+.size-option:hover {
+  background-color: #f0f0f0;
+}
+
+.size-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+.jogs a{
+  text-decoration: none;
+  color: #101010;
+}
+
+.size-grid-item {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+.size-grid-item:hover{
+  background-color: #ccc;
+}
+/* buttons for add to cart */
+.ADDtoCart {
+  background-color: #DAA520; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+}
+.ADDtoCart a{
+  text-decoration: none;
+  color: #fff;
+}
+.ADDtoCart:hover{
+  background-color: #dc750d;
+}
+
+.small{
+  font-size: 14px;
+  color: #DAA520;
+}
+/* section2 */
+.rows13{
+  width: 50%;
+  margin: 0px auto;
+}
+.const {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.const h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+}
+
+.const p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.guarantee-section {
+  margin-bottom: 40px;
+}
+
+.guarantee-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.guarantee-text {
+  font-size: 18px;
+}
+
+/* addtocartbag */
+.rows33{
+  width: 95%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1.1fr 2.2fr;
+}
+.imagecarts{
+  height: 190px;
+}
+.imagecarts img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #eee;
+  box-shadow: 10px 10px 5px rgba(56, 3, 3, 0.2);
+}
+.amplifyer{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0%;
+}
+.mm{
+  font-size: 16px;
+  color: #888;
+}
+.addsomething{
+  padding: 5px 15px;
+  border:1px solid #eee;
+  border-radius: 20px;
+  background-color: #fff;
+  margin: 0%;
+}
+.addsomething:hover{
+  background-color: #eee;
+}
+.cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.minus-button, .plus-button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.minus-button:hover, .plus-button:hover {
+  background-color: #3e8e41;
+}
+
+#quantity {
+  width: 50px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+
+/* #quantity {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+} */
+
+.frezze1{
+  text-decoration: line-through;
+  font-size: 17px;
+}
+.frezze2{
+  font-size: 17px;
+}
+/* section-2 */
+.rows77{
+  width: 300%;
+  margin: 0px auto;
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-between;
+}
+/* .champs{
+  
+} */
+.honors{
+  font-size: 18px;
+  font-weight: bold;
+}
+.fork{
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+/* search canvas */
+.rows34{
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1.1fr 2fr; 
+  height: auto;
+  max-width: 95%;
+  margin: 20px auto ;
+  /* background-color: blueviolet; */
+  overflow: hidden;
+}
+.containers999{
+  height: 100px;
+  width: 100px;
+}
+.container9999 img{
+  height: 100px;
+  width: 100px;
+}
+.drums6{
+  height: 100px;
+  width: auto;
+}
+.drums6 p{
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.golddigger{
+  margin: 2%;
+  padding: 1%;
+}
+.moneydollar{
+  text-decoration: line-through;
+  font-size: 15px;
+}
+.moneycero{
+  font-size: 15px;
+}
+.removeDelete{
+  padding: 5px 10px;
+  background-color: crimson;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+.removeDelete:hover{
+  background-color: #4CAF50;
+}

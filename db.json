@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "The Cowboy",
+      "price": "$299",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands.webp?v=1725476816&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands-2.png?v=1725396470&width=600&height=600&crop=center"
+    },
+    {
+      "id": "2",
+      "name": "The Baller",
+      "price": "$399",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands.png?v=1711687508&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1711687508&width=600&height=600&crop=center"
+    },
+    {
+      "id": "3",
+      "name": "The Rockstar",
+      "price": "$499",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Rockstar-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907352&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Rockstar-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706897071&width=600&height=600&crop=center"
+    },
+    {
+      "id": "4",
+      "name": "The Fitzgerald",
+      "price": "$599",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Fitzgerald-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907957&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Fitzgerald-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907974&width=600&height=600&crop=center"
+    },
+    {
+      "id": "5",
+      "name": "The Instigator",
+      "price": "$699",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907704&width=1000&height=1000&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907712&width=600&height=600&crop=center"
+    },
+    {
+      "id": "6",
+      "name": "The Record Producer",
+      "price": "$799",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Record-Producer-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907744&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Record-Producer-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907759&width=600&height=600&crop=center"
+    },
+    {
+      "id": "7",
+      "name": "The McCartin",
+      "price": "$899",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-McCartin-Mens-Wedding-Rings-Manly-Bands.webp?v=1706910820&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Zeppelin-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706908053&width=600&height=600&crop=center"
+    },
+    {
+      "id": "8",
+      "name": "The Lynn",
+      "price": "$999",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Lynn-Mens-Wedding-Rings-Manly-Bands.webp?v=1723212921&width=100&height=100&crop=center",
+      "link": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Gentleman-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1717606254&width=600&height=600&crop=center"
+    }
+  ],
+  "rings": [
+    {
+      "id": "1",
+      "name": "The Cowboy",
+      "price": "$260",
+      "Category": "Silver",
+      "discountedPrice": 182,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands.webp?v=1725476816&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-cowboy",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands-2.png?v=1725396470&width=600&height=600&crop=center"
+    },
+    {
+      "id": "2",
+      "name": "The Baller",
+      "price": "$260",
+      "Category": "Gold",
+      "discountedPrice": 282,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands.png?v=1711687508&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-baller",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1711687508&width=600&height=600&crop=center"
+    },
+    {
+      "id": "3",
+      "name": "The Rockstar",
+      "price": "$260",
+      "Category": "Antler",
+      "discountedPrice": 382,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Rockstar-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907352&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-rockstar",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Rockstar-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706897071&width=600&height=600&crop=center"
+    },
+    {
+      "id": "4",
+      "name": "The Zeppelin",
+      "price": "$260",
+      "Category": "Meteriote",
+      "discountedPrice": 82,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Zeppelin-Mens-Wedding-Rings-Manly-Bands.webp?v=1706908034&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-zeppelin",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Fitzgerald-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907974&width=600&height=600&crop=center"
+    },
+    {
+      "id": "5",
+      "name": "The Gentleman",
+      "price": "$260",
+      "Category": "Opal",
+      "discountedPrice": 152,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Gentleman-Mens-Wedding-Rings-Manly-Bands.webp?v=1717188829&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-gentleman",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907712&width=600&height=600&crop=center"
+    },
+    {
+      "id": "6",
+      "name": "The Fitzgerald",
+      "price": "$260",
+      "Category": "Titanium",
+      "discountedPrice": 102,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Fitzgerald-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907957&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-fitzgerald",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Record-Producer-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907759&width=600&height=600&crop=center"
+    },
+    {
+      "id": "7",
+      "name": "The Instigator",
+      "price": "$260",
+      "Category": "Damascus Steel",
+      "discountedPrice": 122,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907704&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-instigator",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Zeppelin-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706908053&width=600&height=600&crop=center"
+    },
+    {
+      "id": "8",
+      "name": "The Record Producer",
+      "price": "$260",
+      "Category": "Meteriote",
+      "discountedPrice": 222,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Record-Producer-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907744&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-record-producer",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Gentleman-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1717606254&width=600&height=600&crop=center"
+    },
+    {
+      "id": "9",
+      "name": "The Model",
+      "price": "$260",
+      "Category": "Titanium",
+      "discountedPrice": 321,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Model-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907295&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-model",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands-2.png?v=1725396470&width=600&height=600&crop=center"
+    },
+    {
+      "id": "10",
+      "name": "The Angler",
+      "price": "$260",
+      "Category": "Gold",
+      "discountedPrice": 160,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Angler-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907805&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-angler",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1711687508&width=600&height=600&crop=center"
+    },
+    {
+      "id": "11",
+      "name": "The Hero",
+      "price": "$260",
+      "Category": "Antler",
+      "discountedPrice": 126,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Hero-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907253&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-hero",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Rockstar-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706897071&width=600&height=600&crop=center"
+    },
+    {
+      "id": "12",
+      "name": "Journeyman",
+      "price": "$260",
+      "Category": "Meteriote",
+      "discountedPrice": 250,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Journeyman-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907838&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/journeyman",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Record-Producer-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706907759&width=600&height=600&crop=center"
+    },
+    {
+      "id": "13",
+      "name": "The Elk",
+      "price": "$260",
+      "Category": "Opal",
+      "discountedPrice": 266,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Elk-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907917&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-elk",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Zeppelin-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1706908053&width=600&height=600&crop=center"
+    },
+    {
+      "id": "14",
+      "name": "The Whiz",
+      "price": "$260",
+      "Category": "Titanium",
+      "discountedPrice": 99,
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Whiz-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907456&width=100&height=100&crop=center",
+      "href": "https://manlybands.com/products/the-whiz",
+      "src2": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Gentleman-Mens-Wedding-Rings-Manly-Bands-2.webp?v=1717606254&width=600&height=600&crop=center"
+    }
+  ],
+  "cart": [
+    {
+      "id": "55ea",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907704&width=100&height=100&crop=center",
+      "name": "The Instigator",
+      "price": "$260",
+      "discountedPrice": "122"
+    },
+    {
+      "id": "c96d",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Instigator-Mens-Wedding-Rings-Manly-Bands.webp?v=1706907704&width=100&height=100&crop=center",
+      "name": "The Instigator",
+      "price": "$260",
+      "discountedPrice": "122"
+    },
+    {
+      "id": "ad14",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Cowboy-Mens-Wedding-Rings-Manly-Bands.webp?v=1725476816&width=100&height=100&crop=center",
+      "name": "The Cowboy",
+      "price": "$260",
+      "discountedPrice": "182"
+    },
+    {
+      "id": "d0aa",
+      "image": "https://cdn.shopify.com/s/files/1/1569/4617/files/The-Baller-Mens-Wedding-Rings-Manly-Bands.png?v=1711687508&width=100&height=100&crop=center",
+      "name": "The Baller",
+      "price": "$260",
+      "discountedPrice": "282"
+    }
+  ]
+}
